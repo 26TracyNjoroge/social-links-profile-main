@@ -1,5 +1,7 @@
 body {
     background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
 }
 
 h3 {
@@ -8,5 +10,5 @@ h3 {
 
 .container {
     background-color: hsl(0, 0%, 12%);
-    color: hsl(0, 0%, 100%);
 }
+

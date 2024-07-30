@@ -22,7 +22,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### The challenge
 
-Users should be able to:
+This project is a simple web page that showcases some social link profiles. The challenge was to practice basic HTML and CSS skills, including creating structured content and styling it to be visually appealing.
+Users using the page should be able to:
 
 - See hover and focus states for all interactive elements on the page
 

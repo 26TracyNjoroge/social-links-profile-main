@@ -69,6 +69,7 @@ p {
 .infor {
     margin-top: 16px;
     margin-bottom: 4px;
+    font-size: 14px;
 }
 
 .social-link:hover, .social-link:focus {

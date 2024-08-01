@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -6,12 +8,21 @@ body {
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
     text-align: center;
-    font-size: 14px;
     font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 
+}
 
-h3 {
-    color: hsl(75, 94%, 57%);
+.socials {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    width: 22rem;
+    height: 32rem;
+    padding: 24px;
+    margin: 0 auto;
 }
 
 img {
@@ -19,20 +30,16 @@ img {
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 8px;
 }
 
-.container {
-    background-color: hsl(0, 0%, 12%);
-    width: 280px;
-    max-width: 600px;
-    min-width: 375px;
-    margin: 84px auto;
-    padding: 32px;
-    border-radius: 12px;
+p {
+    font-size: 14px;
 }
 
 .social-name {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+    font-size: 26px;
 }
 
 .social-place {
@@ -43,20 +50,25 @@ img {
 }
 
 .social-goal {
-    margin: 24px 0;
+    margin: 18px 0;
     font-weight: 400;
 
 }
 
 .social-link {
     border: 1px solid hsl(0, 0%, 12%);
-    background-color: hsl(0, 0%, 20%);
-    padding: 14px;
-    border-radius: 10px;
-    margin-bottom: 14px;
+    background-color: hsl(0, 0%, 20%); 
+    padding: 10px;
+    border-radius: 10px; 
+    margin-bottom: 9px; 
     font-weight: 700;
-    cursor: pointer;
+    cursor: pointer; 
     transition: background-color 0.3s, color 0.3s;
+}
+
+.infor {
+    margin-top: 16px;
+    margin-bottom: 4px;
 }
 
 .social-link:hover, .social-link:focus {
@@ -74,4 +86,28 @@ img {
 .infor a:focus {
     color: hsl(75, 94%, 57%);
     outline: none;
-}
+} 
+
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
